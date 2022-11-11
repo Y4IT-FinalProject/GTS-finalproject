@@ -1,0 +1,35 @@
+{% extends 'GirinkaApp/base.html' %}
+
+
+<head>
+
+   <title>{% block title %}
+      Announcements
+      {% endblock title %}
+   </title>
+   
+   {% block content %}
+   {% load static %}
+  
+  <h1>you are welcome to announcement site</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Announcement Title|Location</th>
+        <th scope="col">Posted By</th>
+        <th scope="col">Attachment|Date</th>
+      </tr>
+    </thead>
+  <tbody>
+    {% for announce in announcement %}
+   <tr>
+     <td><a href="">{{announce.title}}</a> - <b>{{announce.location}}</b></td>
+     <td>{{announce.posted_by}}</td>
+     <td><a href="{{ announce.attachment.url }}"> {{announce.attachment}}</a> &nbsp;&nbsp;<p style="color: green;">{{announce.published_date}}</p></td>
+     {% endfor %}
+   </tr>
+   
+ </tbody>
+</table>
+  
+{% endblock content %}

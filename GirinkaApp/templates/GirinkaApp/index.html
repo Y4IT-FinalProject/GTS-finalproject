@@ -1,0 +1,101 @@
+{% extends 'GirinkaApp/base.html' %}
+
+
+<head>
+   
+
+   <title>{% block title %}
+      Home Page
+      {% endblock title %}
+   </title>
+   
+   {% block content %}
+   {% load static %}
+  
+   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+   <link rel="stylesheet" href="{% static 'css/mystyles.css' %}">
+   <!-- banner -->
+   <section class="banner_main">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-7 col-lg-7">
+               <div class="text-bg">
+                  <span>Girinka Infos</span>
+                  <p>According to the Ministry of Agriculture (MINAGRI), the programme was set up
+                    with the fundamental purpose to reduce the rate of child malnutrition, and
+                    increase household incomes for poor farmers. These goals are directly achieved
+                    through increased access to, and consumption of milk, by providing poor
+                    households with a heifer. The programme is thus vital in addressing the basic
+                    needs in the parts of the country that are critically food insecure.</p>
+                  <a href="#">Read More</a>
+               </div>
+            </div>
+            <div class="col-md-5 col-lg-5">
+               <div class="cow_back">
+                  <figure><img src="{% static 'images/cow1.png' %}" alt="#" /></figure>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end banner -->
+
+   <!-- announcement blogs -->
+  
+
+      
+    
+        <div class="">
+            <h1 class="announce_title">ANNOUNCEMENTS</h1>
+            <div class="sb-example-3">
+              <!-- partial:index.partial.html -->
+              <div class="search__container">
+    
+                  <input class="search__input" type="text" placeholder="Search">
+              </div>
+            </div>
+            <div class="announce-content" style=" border: 2px blue;height: 500px; overflow: auto;">
+
+               <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Announcement Title|Location</th>
+                      <th scope="col">Posted By</th>
+                      <th scope="col">Attachment|Date</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                     {% for announce in announcement %}
+                    <tr>
+                      <td><a href="">{{announce.title}}</a> - <b>{{announce.location}}</b></td>
+                      <td>{{announce.posted_by}}</td>
+                      <td>{{announce.attachment}} &nbsp;&nbsp;<p style="color: green;">{{announce.published_date}}</p></td>
+                      {% endfor %}
+                    </tr>
+                    
+                  </tbody>
+               </table>
+            </div>
+                    <!-- <tr>
+                    
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                  
+               <ul>
+               
+                 <li> | <br>
+                   
+                  
+                 </li>
+               </ul>
+            
+        </div> -->
+   
+      
+    
+   <!-- announcement blogs -->
+  
+{% endblock content %}

@@ -1,0 +1,22 @@
+{% extends 'GirinkaApp/base.html' %}
+{% load crispy_forms_tags %}
+
+<head>
+
+   <title>{% block title %}
+      Announcements
+      {% endblock title %}
+   </title>
+   
+   {% block content %}
+   {% load static %}
+  
+  <h1>this is upload list</h1>
+  
+  <form action="" method="post" enctype="multipart/form-data">
+   {% csrf_token %}
+   {{ form|crispy }}
+   <button type="submit">Publish</button>
+ </form>
+
+{% endblock content %}

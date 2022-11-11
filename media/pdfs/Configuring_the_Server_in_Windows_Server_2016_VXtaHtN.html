@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- saved from url=(0094)https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20config%20server.htm -->
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="js no-touch svg inlinesvg svgclippaths no-ie8compat _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="vFire Online Help.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Install and Upgrade|Prerequisites|Web Server Deployment" style=""><!-- saved from url=(0016)http://localhost --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="msapplication-config" content="../../../../Skins/Favicons/browserconfig.xml">
+        <link rel="apple-touch-icon" sizes="129x129" href="https://www.alemba.help/help/Skins/Favicons/vFire%20orbs.png">
+        <link rel="shortcut icon" href="https://www.alemba.help/help/Skins/Favicons/favicon-32x32.png">
+        <link rel="icon" sizes="96x96" href="https://www.alemba.help/help/Skins/Favicons/favicon-96x96.png">
+        <link rel="icon" sizes="32x32" href="https://www.alemba.help/help/Skins/Favicons/favicon-32x32.png">
+        <link rel="icon" sizes="16x16" href="https://www.alemba.help/help/Skins/Favicons/favicon-16x16.png">
+        
+        <meta name="description" content="">
+        <meta name="author" content=""><title data-title="Configuring the Server in Windows Server 2016">Configuring the Server in Windows Server 2016</title>
+        <!-- Global site tag (gtag.js) - Google Analytics from forum-->
+        <script async="" src="./Configuring the Server in Windows Server 2016_files/analytics.js.download"></script><script>/* <![CDATA[ */
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-53706201-1', 'auto');
+			ga('send', 'pageview');
+
+		/* ]]> */</script>
+        <link href="./Configuring the Server in Windows Server 2016_files/Slideshow.css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/TextEffects.css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/Topic.css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/Styles.css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/Tablet.css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/Mobile.css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/foundation.6.2.3.css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/Styles(1).css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/Tablet(1).css" rel="stylesheet">
+        <link href="./Configuring the Server in Windows Server 2016_files/Mobile(1).css" rel="stylesheet">
+        <style>/*&lt;meta /&gt;*/
+
+.button.print-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.expand-all-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/expand.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../../../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <link href="./Configuring the Server in Windows Server 2016_files/vfire_help_styles.css" rel="stylesheet">
+        <script src="./Configuring the Server in Windows Server 2016_files/custom.modernizr.js.download">
+        </script>
+        <script src="./Configuring the Server in Windows Server 2016_files/jquery.min.js.download">
+        </script>
+        <script src="./Configuring the Server in Windows Server 2016_files/require.min.js.download">
+        </script>
+        <script src="./Configuring the Server in Windows Server 2016_files/require.config.js.download">
+        </script>
+        <script src="./Configuring the Server in Windows Server 2016_files/foundation.6.2.3_custom.js.download">
+        </script>
+        <script src="./Configuring the Server in Windows Server 2016_files/plugins.min.js.download">
+        </script>
+        <script src="./Configuring the Server in Windows Server 2016_files/MadCapAll.js.download">
+        </script>
+    <meta class="foundation-mq"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../../Data/Breakpoints.js" src="./Configuring the Server in Windows Server 2016_files/Breakpoints.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../../Data/Language.js" src="./Configuring the Server in Windows Server 2016_files/Language.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../../Data/Filters.js" src="./Configuring the Server in Windows Server 2016_files/Filters.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../../Data/Tocs/vFire_Help.js" src="./Configuring the Server in Windows Server 2016_files/vFire_Help.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../../Data/Tocs/vFire_Help_Chunk0.js" src="./Configuring the Server in Windows Server 2016_files/vFire_Help_Chunk0.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../../Data/Tocs/vFire_Help_Chunk1.js" src="./Configuring the Server in Windows Server 2016_files/vFire_Help_Chunk1.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../../Data/Tocs/vFire_Help_Chunk2.js" src="./Configuring the Server in Windows Server 2016_files/vFire_Help_Chunk2.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../../Data/Tocs/vFire_Help_Chunk3.js" src="./Configuring the Server in Windows Server 2016_files/vFire_Help_Chunk3.js.download"></script></head>
+    <body class="web">
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="fbwww4-off-canvas" data-position="right" data-mc-ignore="true" aria-hidden="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="j26f1p-accordion-menu" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" role="tablist" aria-multiselectable="true" data-mc-chunk="Data/Toc.xml">
+                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="0"><a href="https://www.alemba.help/help/content/topics/release%20notes/new%20features%20and%20changes.htm">What's New<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="1"><a href="https://www.alemba.help/help/content/topics/installation%20and%20upgrade/install%20and%20upgrade/installing%20and%20upgrading%20vfire.htm">Install and Upgrade<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="2"><a href="https://www.alemba.help/help/content/topics/toc%20topics/system%20admin.htm">Set Up<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="3"><a href="https://www.alemba.help/help/content/topics/integration/integrate.htm">Integrate<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="4"><a href="https://www.alemba.help/help/content/topics/toc%20topics/designing.htm">Configure<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="5"><a href="https://www.alemba.help/help/content/topics/toc%20topics/cmdb%20admin.htm">Manage<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="6"><a href="https://www.alemba.help/help/content/topics/toc%20topics/use.htm">Use<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="7"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/home.htm">vFire Skills<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li></ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container sticky-container" style="height: 148px;">
+                        <nav class="title-bar tab-bar sticky is-stuck is-at-top" data-sticky="emhuz4-sticky" data-options="marginTop:0" style="width: 100%; max-width: 1349px; margin-top: 0em; top: 0px; bottom: auto;" data-sticky-on="small" data-mc-ignore="true" data-resize="xcu2o2-sticky" data-events="resize">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas" aria-expanded="false" aria-controls="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="https://www.alemba.help/help/content/home%20pages/online%20help/home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                                        
+                                    <li class="has-children" data-mc-id="0"><a href="https://www.alemba.help/help/content/topics/release%20notes/new%20features%20and%20changes.htm">What's New</a></li><li class="has-children is-expanded" data-mc-id="1"><a href="https://www.alemba.help/help/content/topics/installation%20and%20upgrade/install%20and%20upgrade/installing%20and%20upgrading%20vfire.htm">Install and Upgrade</a><ul class="sub-menu"><li class="has-children" data-mc-id="8"><a href="https://www.alemba.help/help/content/topics/licensing/licensing%20intro.htm">Licensing</a></li><li class="has-children" data-mc-id="9"><a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20intro.htm">Prerequisites</a></li><li class="has-children" data-mc-id="10"><a href="https://www.alemba.help/help/content/topics/installation%20and%20upgrade/install%20and%20upgrade/installing%20and%20upgrading%20vfire.htm">Installing and Upgrading</a></li><li data-mc-id="11"><a href="https://www.alemba.help/help/content/topics/installation%20and%20upgrade/install%20and%20upgrade/install%20and%20upgrade%20trblshoot.htm">Troubleshooting and FAQ</a></li><li data-mc-id="12"><a href="https://www.alemba.help/help/content/topics/release%20notes/release%20notes.htm">Release Notes</a></li></ul></li><li class="has-children is-expanded" data-mc-id="2"><a href="https://www.alemba.help/help/content/topics/toc%20topics/system%20admin.htm">Set Up</a><ul class="sub-menu"><li class="has-children" data-mc-id="30"><a href="https://www.alemba.help/help/content/topics/toc%20topics/system%20and%20security.htm">System and Security</a></li><li class="has-children" data-mc-id="31"><a href="https://www.alemba.help/help/content/topics/toc%20topics/ipk%20and%20workflow.htm">IPK and Workflow</a></li><li class="has-children" data-mc-id="32"><a href="https://www.alemba.help/help/content/topics/admin%20slm/service%20level%20management.htm">Service Level Management</a></li><li class="has-children" data-mc-id="33"><a href="https://www.alemba.help/help/content/topics/toc%20topics/cmdb%20admin.htm">CMDB</a></li><li class="has-children" data-mc-id="34"><a href="https://www.alemba.help/help/content/topics/knowledge%20bank/knowledge%20management.htm">Knowledge Management</a></li><li class="has-children" data-mc-id="35"><a href="https://www.alemba.help/help/content/topics/admin%20self%20service%20portal/customer%20portal.htm">Self Service Portal</a></li><li class="has-children" data-mc-id="36"><a href="https://www.alemba.help/help/content/topics/vfire%20officer%20app%20si%20guide/vfire%20officer%20app%20si%20intro.htm">Configuring for the vFire Officer App</a></li><li class="has-children" data-mc-id="37"><a href="https://www.alemba.help/help/content/topics/config%20port/configuration%20portability.htm">Configuration Portability</a></li></ul></li><li class="has-children" data-mc-id="3"><a href="https://www.alemba.help/help/content/topics/integration/integrate.htm">Integrate</a></li><li class="has-children" data-mc-id="4"><a href="https://www.alemba.help/help/content/topics/toc%20topics/designing.htm">Configure</a></li><li class="has-children is-expanded" data-mc-id="5"><a href="https://www.alemba.help/help/content/topics/toc%20topics/cmdb%20admin.htm">Manage</a><ul class="sub-menu"><li data-mc-id="21"><a href="https://www.alemba.help/help/content/topics/managing%20people/managing%20people.htm">Managing People</a></li><li class="has-children" data-mc-id="22"><a href="https://www.alemba.help/help/content/topics/cmdb/introduction%20to%20cmdb.htm">Managing Services and Items</a></li><li class="has-children" data-mc-id="23"><a href="https://www.alemba.help/help/content/topics/slm/managing%20agreements.htm">Managing Agreements</a></li><li class="has-children" data-mc-id="24"><a href="https://www.alemba.help/help/content/topics/toc%20topics/managing%20knowledge%20and%20bulletins.htm">Managing Knowledge and Bulletins</a></li></ul></li><li class="has-children" data-mc-id="6"><a href="https://www.alemba.help/help/content/topics/toc%20topics/use.htm">Use</a><ul class="sub-menu"><li class="has-children" data-mc-id="25"><a href="https://www.alemba.help/help/content/topics/toc%20topics/vfire%20core.htm">vFire Core</a></li><li class="has-children" data-mc-id="26"><a href="https://www.alemba.help/help/content/vss%20help/about%20vss.htm">vFire Self Service</a></li><li class="has-children" data-mc-id="27"><a href="https://www.alemba.help/help/content/topics/nano/introducing%20nano.htm">Nano</a></li><li class="has-children" data-mc-id="28"><a href="https://www.alemba.help/help/content/rapid%20start%20ref/rapid%20start.htm">Rapid Start</a></li><li class="has-children" data-mc-id="29"><a href="https://www.alemba.help/help/content/topics/toc%20topics/vfire%20apps.htm">vFire Apps</a></li></ul></li><li class="has-children" data-mc-id="7"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/home.htm">vFire Skills</a><ul class="sub-menu"><li data-mc-id="13"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/build.htm">Building your vFire System</a></li><li data-mc-id="14"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/admin.htm">Managing your vFire System</a></li><li data-mc-id="15"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/config.htm">Configuring your vFire System</a></li><li data-mc-id="16"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/getting%20started.htm">Getting Started</a></li><li data-mc-id="17"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/self%20service.htm">vFire Self Service</a></li><li data-mc-id="18"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/chat.htm">vFire Chat</a></li><li data-mc-id="19"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/design.htm">vFire Designer</a></li><li data-mc-id="20"><a href="https://www.alemba.help/help/content/home%20pages/training%20wkflw%20mgt.htm">Workflow Management</a></li></ul></li></ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20config%20server.htm#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search">
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="d699n5-accordion-menu" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True" role="tablist" aria-multiselectable="true" data-mc-chunk="Data/Toc.xml">
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="0"><a href="https://www.alemba.help/help/content/topics/release%20notes/new%20features%20and%20changes.htm">What's New<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="1"><a href="https://www.alemba.help/help/content/topics/installation%20and%20upgrade/install%20and%20upgrade/installing%20and%20upgrading%20vfire.htm">Install and Upgrade<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="2"><a href="https://www.alemba.help/help/content/topics/toc%20topics/system%20admin.htm">Set Up<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="3"><a href="https://www.alemba.help/help/content/topics/integration/integrate.htm">Integrate<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="4"><a href="https://www.alemba.help/help/content/topics/toc%20topics/designing.htm">Configure<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="5"><a href="https://www.alemba.help/help/content/topics/toc%20topics/cmdb%20admin.htm">Manage<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="6"><a href="https://www.alemba.help/help/content/topics/toc%20topics/use.htm">Use<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="7"><a href="https://www.alemba.help/help/content/home%20pages/online%20help/training/home.htm">vFire Skills<span class="submenu-toggle-container"><span class="submenu-toggle">&nbsp;</span></span></a></li></ul>
+                                </div>
+                            </div>
+                            <div class="body-container" data-mc-content-body="True">
+                                <div class="content">
+                                    <div id="contentBody" style="padding-bottom: 50px">
+                                        <div class="row collapse">
+                                            <div class="sideContent">
+                                                <div class="clearfix">
+                                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="mc-topic-toolbar-items: CurrentTopicIndex Print Home ToggleNavigationPane;">
+                                                        <div class="button-group-container-left">
+                                                            <button class="button needs-pie print-button" title="Print">
+                                                                <img src="./Configuring the Server in Windows Server 2016_files/transparent.gif" alt="print">
+                                                            </button>
+                                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                                <img src="./Configuring the Server in Windows Server 2016_files/transparent.gif" alt="expand all">
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/vFire_Help.js" data-mc-side-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                                                <li data-mc-id="0" class="has-children"><a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20web%20svr.htm">Web Server Deployment</a><ul class="sub-menu"><li class="tree-node-leaf" data-mc-id="1"><a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20config%20server.htm" class="selected">Configuring the Server in Windows Server 2016</a></li><li class="tree-node-leaf" data-mc-id="2"><a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20config%20server%202012.htm">Configuring the Server in Windows Server 2012</a></li><li class="tree-node-leaf" data-mc-id="3"><a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/install%20appendixb-%20aspnet.htm">Adding ASP.NET to Windows 2008</a></li></ul></li></ul>
+                                            </div>
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True" data-mc-chunk="Data/Toc.xml"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                <a href="https://www.alemba.help/help/content/topics/installation%20and%20upgrade/install%20and%20upgrade/installing%20and%20upgrading%20vfire.htm" class="MCBreadcrumbsLink">Install and Upgrade</a><span class="MCBreadcrumbsDivider"> &gt; </span><a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20intro.htm" class="MCBreadcrumbsLink">Prerequisites</a><span class="MCBreadcrumbsDivider"> &gt; </span><a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20web%20svr.htm" class="MCBreadcrumbsLink">Web Server Deployment</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Configuring the Server in Windows Server 2016</span></div>
+                                            </div>
+                                            <h1>Configuring the Server<madcap:conditionaltext data-mc-conditions="Default.ScreenOnly"> in Windows Server 2016</madcap:conditionaltext></h1>
+                                            <h2 class="Prerequisite">Before you start</h2>
+                                            <p class="prereqtextlast">Before doing an installation, check that your server and client machines meet all the prerequisites for <a href="https://www.alemba.help/help/content/topics/prerequisites/9.2/9.2%20prereq%20web%20svr%20dep.htm" class="print">web server deployment</a>, <a href="https://www.alemba.help/help/content/topics/prerequisites/9.2/9.2%20prereq%20db%20svr%20req.htm" class="print">database server requirements</a> and <a href="https://www.alemba.help/help/content/topics/prerequisites/9.2/9.2%20prereq%20client%20reqs.htm" class="print">client requirements</a>. </p>
+                                            <p class="warning">Oracle databases are not supported for vFire 9.9 and above.</p>
+                                            <p class="pdflink" data-mc-conditions="Default.ScreenOnly">To view a PDF&nbsp;version of the 9.11 prerequisites, select the following link <a href="https://www.alemba.help/help/content/Resources/pdfs/vFire_9_11_Prerequisites.pdf"><img src="./Configuring the Server in Windows Server 2016_files/link pdf.png">.</a></p>
+                                            <p class="pdflink" data-mc-conditions="Default.ScreenOnly">Select the appropriate link to view a PDF version of the <a href="https://www.alemba.help/help/content/Resources/pdfs/vFire_9_11_Prerequisites.pdf">9.11 Prerequisites</a>, the <a href="https://www.alemba.help/help/content/Resources/pdfs/vFire_9_11_Installation_Guide.pdf">Installation Guide</a>, or the <a href="https://www.alemba.help/help/content/Resources/pdfs/vFire_9_11_Upgrade_Guide.pdf">Upgrade Guide</a> .</p>
+                                            <p>To configure Windows Server  2016 for vFire Core, follow the instructions in this section.</p>
+                                            <p>If you are using   Server 2012, follow the instructions in <madcap:conditionaltext data-mc-conditions="Default.ScreenOnly"><a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/prereq%20config%20server%202012.htm" class="MCXref xref">Configuring the Server in Windows Server 2012</a></madcap:conditionaltext>.</p>
+                                            <p>If you are using Server 2008, follow the instructions in <a href="https://www.alemba.help/help/content/topics/prerequisites/prereqs/install%20appendixb-%20aspnet.htm" class="MCXref xref" data-mc-conditions="Default.ScreenOnly">Adding ASP.NET to Windows 2008 </a>.</p>
+                                            <ol>
+                                                <li value="1">Go to the <b>Server Manager</b> application, select <b>Dashboard</b>, and select the <b>Add roles and features</b> link.<br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/installation1%20server%20manager%20dashboard.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="1366" data-mc-height="728" src="./Configuring the Server in Windows Server 2016_files/installation1 server manager dashboard_thumb_0_48.png" tabindex=""></a></li>
+                                                <li style="widows: 5;orphans: 5;" value="2">
+            This brings up the <b>Add Roles and Features Wizard</b> which opens on the <b>Before You begin</b> window. Read this page carefully and ensure that you have completed the tasks listed. <br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/serverconfig1.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="786" data-mc-height="560" src="./Configuring the Server in Windows Server 2016_files/serverconfig1_thumb_0_48.png" tabindex=""></a></li>
+                                                <li value="3">Select <b>Next</b> to continue.</li>
+                                                <li value="4">On the <b>Select installation type</b> window, select <b>Role-based or feature-based installation</b>.<br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/serverconfig2.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="786" data-mc-height="561" src="./Configuring the Server in Windows Server 2016_files/serverconfig2_thumb_0_48.png" tabindex=""></a><br></li>
+                                                <li value="5">Select <b>Next</b> to continue.</li>
+                                                <li value="6">On the <b>Select destination server</b> window, select the server that you will be using.<br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="./Configuring the Server in Windows Server 2016_files/serverconfig3.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="785" data-mc-height="561" src="./Configuring the Server in Windows Server 2016_files/serverconfig3_thumb_0_48.png" tabindex=""></a></li>
+                                                <li value="7">Select <b>Next</b> to continue.</li>
+                                                <li value="8">In the <b>Select server roles</b> window, select <b>Web Server (IIS)</b>.<br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/serverconfig4.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="786" data-mc-height="596" src="./Configuring the Server in Windows Server 2016_files/serverconfig4_thumb_0_48.png" tabindex=""></a></li>
+                                                <li value="9">The <b>Add features</b> window is displayed.<br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/serverconfig5.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="784" data-mc-height="596" src="./Configuring the Server in Windows Server 2016_files/serverconfig5_thumb_0_48.png" tabindex=""></a></li>
+                                                <li value="10">Press <b>Add Features</b>. The window and you are returned to the <b>Select server roles</b> window.</li>
+                                                <li value="11">  Select <b>Next</b> to continue.</li>
+                                                <li value="12">In the <b>Select Features</b> window, ensure all the following options are selected. </li>
+                                                <p class="note">When the option <b>HTTP Activation</b> is selected (under sections <b>.NET Framework 3.5 Features</b> and <b>WCF Services</b>), the <b>Add Features</b> window appears. Press <b>Add Features.</b> The window closes and you are returned to the Select Features window.</p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/serverconfig8.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="784" data-mc-height="596" src="./Configuring the Server in Windows Server 2016_files/serverconfig8_thumb_0_48.png" tabindex=""></a>
+                                                <li value="13">Select <b>Next</b> to continue.</li>
+                                                <li value="14">The <b>Web Server Role (IIS)</b> window is displayed, giving information about the web server.</li>
+                                                <p class="note">You may not see this window if you are upgrading.</p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/serverconfig9.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="786" data-mc-height="598" src="./Configuring the Server in Windows Server 2016_files/serverconfig9_thumb_0_48.png" tabindex=""></a>
+                                                <li value="15">Select <b>Next</b> to continue.</li>
+                                                <li value="16">On the <b>Select role services</b> window, ensure that all the following options are selected. <br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/serverconfig10.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="786" data-mc-height="1016" src="./Configuring the Server in Windows Server 2016_files/serverconfig10_thumb_0_48.png" tabindex=""></a></li>
+                                                <p class="note">vFire Core provides its own <b>Dynamic Content Compression</b>, which tests indicate  performs slightly better than IIS Dynamic Content Compression. Disabling IIS Dynamic Content Compression is a viable option but not required. <br>Dynamic Content Compression is automatically enabled in IIS. When disabled, the Web Server (IIS) Support Role is also disabled, therefore,  it is recommended you review the Role Services enabled by the Web Server (IIS) Support Role and manually re-enable those required for your environment.</p>
+                                                <li value="17">Select <b>Next</b> to continue.</li>
+                                                <li value="18">In the <b>Confirm installation selections</b> window, confirm that you have the following selected.<br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://www.alemba.help/help/content/resources/images/serverconfig11.png"><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="788" data-mc-height="1412" src="./Configuring the Server in Windows Server 2016_files/serverconfig11_thumb_0_48.png" tabindex=""></a><br></li>
+                                                <li value="19">Select <b>Install</b> when you are ready to proceed. When installation is complete, the results window displays all roles, role services and features which have been installed. <br></li>
+                                                <li value="20">Select <b>Close</b> to close the wizard. The configuration is complete.</li>
+                                            </ol>
+                                            <h2>What's Next</h2>
+                                            <p>Once the configuration has been completed, the following components need to be installed:</p>
+                                            <ul>
+                                                <li value="1">Microsoft .NET Framework v4.5.2 (offline installer - click <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642">here</a> to download)</li>
+                                                <li value="2">Windows Management Framework 5.1 for Windows Server 2012 R2 (MSU file - click <a href="https://go.microsoft.com/fwlink/?linkid=839516">here</a> to download)</li>
+                                            </ul>
+                                            <p>The <b>Full-Text and Semantic Extractions for Search</b> is required for the <b>Suggested Knowledge</b> and <b>Matching Panel</b> features in v9.8. To install the  feature on the SQL Server Database platform, you need access to the SQL Server Installer MSI.  Installation instructions (via MS TechNet) are available via the following links:</p>
+                                            <ul>
+                                                <li value="1"><a href="https://technet.microsoft.com/en-us/library/gg509085(v=sql.110).aspx">Install and Configure Semantic Search (SQL Server 2012)</a>
+                                                </li>
+                                                <li value="2"><a href="https://technet.microsoft.com/en-us/library/gg509085(v=sql.120).aspx">Install and Configure Semantic Search (SQL Server 2014)</a>
+                                                </li>
+                                                <li value="3"><a href="https://docs.microsoft.com/en-us/sql/relational-databases/search/install-and-configure-semantic-search">Install and Configure Semantic Search (SQL Server 2016 and later)</a>
+                                                </li>
+                                            </ul>
+                                            <p>You also need to enable the feature within the system.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                <div class="js-off-canvas-exit"></div></div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    
+<div class="MCPopupContainer" style="top: 723px; left: 10px;"><img class="MCPopupFullImage" src="./Configuring the Server in Windows Server 2016_files/serverconfig3.png" alt="null" tabindex="0" style="width: 736.025px; height: 526px; display: inline-block;"></div><div id="mc-background-tint" style="opacity: 0.5;"></div></body></html>
